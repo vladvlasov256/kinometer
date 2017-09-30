@@ -36,7 +36,6 @@ def parse_property(html, after):
 def save_image(rank, link):
     url = URL_PREFIX + link
     filename = "%s/%d.jpg" % (IMAGES_DIR, rank)
-    print(url, filename)
     urlretrieve(url, filename)
 
 
