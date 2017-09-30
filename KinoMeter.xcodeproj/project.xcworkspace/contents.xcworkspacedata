@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MovieMeter.xcodeproj">
+      location = "self:/Users/vladimir/Documents/xcode projects/kinometer/KinoMeter.xcodeproj">
    </FileRef>
 </Workspace>

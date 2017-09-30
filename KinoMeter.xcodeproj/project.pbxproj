@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E7176B761F75DD7C0074B7D3 /* MovieMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7176B761F75DD7C0074B7D3 /* KinoMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinoMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7176B791F75DD7C0074B7D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7176B7B1F75DD7C0074B7D3 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		E7176B7E1F75DD7C0074B7D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		E7176B6D1F75DD7C0074B7D3 = {
 			isa = PBXGroup;
 			children = (
-				E7176B781F75DD7C0074B7D3 /* MovieMeter */,
+				E7176B781F75DD7C0074B7D3 /* KinoMeter */,
 				E7176B771F75DD7C0074B7D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		E7176B771F75DD7C0074B7D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E7176B761F75DD7C0074B7D3 /* MovieMeter.app */,
+				E7176B761F75DD7C0074B7D3 /* KinoMeter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E7176B781F75DD7C0074B7D3 /* MovieMeter */ = {
+		E7176B781F75DD7C0074B7D3 /* KinoMeter */ = {
 			isa = PBXGroup;
 			children = (
 				E7176B8D1F75E29A0074B7D3 /* Posters */,
@@ -73,15 +73,15 @@
 				E7176B821F75DD7C0074B7D3 /* LaunchScreen.storyboard */,
 				E7176B851F75DD7C0074B7D3 /* Info.plist */,
 			);
-			path = MovieMeter;
+			path = KinoMeter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E7176B751F75DD7C0074B7D3 /* MovieMeter */ = {
+		E7176B751F75DD7C0074B7D3 /* KinoMeter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7176B881F75DD7C0074B7D3 /* Build configuration list for PBXNativeTarget "MovieMeter" */;
+			buildConfigurationList = E7176B881F75DD7C0074B7D3 /* Build configuration list for PBXNativeTarget "KinoMeter" */;
 			buildPhases = (
 				E7176B721F75DD7C0074B7D3 /* Sources */,
 				E7176B731F75DD7C0074B7D3 /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = MovieMeter;
+			name = KinoMeter;
 			productName = MovieMeter;
-			productReference = E7176B761F75DD7C0074B7D3 /* MovieMeter.app */;
+			productReference = E7176B761F75DD7C0074B7D3 /* KinoMeter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E7176B711F75DD7C0074B7D3 /* Build configuration list for PBXProject "MovieMeter" */;
+			buildConfigurationList = E7176B711F75DD7C0074B7D3 /* Build configuration list for PBXProject "KinoMeter" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E7176B751F75DD7C0074B7D3 /* MovieMeter */,
+				E7176B751F75DD7C0074B7D3 /* KinoMeter */,
 			);
 		};
 /* End PBXProject section */
@@ -292,9 +292,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D7W8SK38P9;
-				INFOPLIST_FILE = MovieMeter/Info.plist;
+				INFOPLIST_FILE = KinoMeter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sofatech.MovieMeter;
+				PRODUCT_BUNDLE_IDENTIFIER = sofatech.kinometer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -307,9 +307,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D7W8SK38P9;
-				INFOPLIST_FILE = MovieMeter/Info.plist;
+				INFOPLIST_FILE = KinoMeter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sofatech.MovieMeter;
+				PRODUCT_BUNDLE_IDENTIFIER = sofatech.kinometer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -319,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E7176B711F75DD7C0074B7D3 /* Build configuration list for PBXProject "MovieMeter" */ = {
+		E7176B711F75DD7C0074B7D3 /* Build configuration list for PBXProject "KinoMeter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7176B861F75DD7C0074B7D3 /* Debug */,
@@ -328,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7176B881F75DD7C0074B7D3 /* Build configuration list for PBXNativeTarget "MovieMeter" */ = {
+		E7176B881F75DD7C0074B7D3 /* Build configuration list for PBXNativeTarget "KinoMeter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7176B891F75DD7C0074B7D3 /* Debug */,
